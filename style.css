@@ -73,8 +73,31 @@ body{
     font-size: 30px;
     margin:20px 0;
 }
-
-
+.food_images_container{
+width: 100%;
+}
+.food_image{
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+.food_cart{
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.food_content{
+    padding: 15px;
+}
+.explore_menu_text{
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.explore_menu_button{
+    display: flex;
+    justify-content: center;
+}
 @media (min-width:768px) {
     .navbar{
         justify-content: space-between;
@@ -88,6 +111,39 @@ body{
     }
     .hero_text{
         font-size: 50px;
+    }
+    .explore_menu_lists{
+        display: flex;
+        gap: 15px;
+        margin-top: 40px;
+        padding: 0 30px;
+    }
+    .explore_menu_text{
+        font-size: 40px;
+    }
+    #pizza_card{
+        margin-top: -20px;
+        margin-bottom: 30px;
+    }
+    .explore_menu_container{
+        position: relative;
+        margin-top: 80px;
+    }
+    .explore_menu_gradient_bg{
+        position:absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(
+            to right,
+            #ff512f 0%,
+            #dd2476 51%,
+            #ff512f 100%
+          );
+          z-index: -1;
+          transform: skewY(-5deg);
+          
     }
 }
 @media (min-width:1020px) {
@@ -108,6 +164,9 @@ body{
     }
     .hero_text{
         font-size: 40px;
+    }
+    .explore_menu_lists{
+        gap: 40px;
     }
 
 }
