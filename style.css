@@ -167,7 +167,7 @@ width: 100%;
     gap: 20px;
 }
 .get_updated_email{
-    width: 40%;
+    width: 55%;
     height: 40px;
     border-radius: 10px;
     border:none;
@@ -175,6 +175,69 @@ width: 100%;
 
 }
 /* GEt Updates end */
+
+
+/* Quote start */
+.quote_background_image{
+    display: flex;
+    background-image: url(assets/assets/restaurant1.jpg);
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    margin-top: 100px;
+    align-items: center;
+}
+.quote_heading{
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Quote end */
+
+
+/* Footer start */
+.footer{
+    background-image: linear-gradient(
+        to right,
+        #ff512f 0%,
+        #dd2476 51%,
+        #ff512f 100%
+      );
+      display: block;
+      align-items: center;
+      max-width: 100%;
+    margin-top: 120px;
+      padding: 0 0;
+      text-align: center;
+      border-radius: 50px 50px 0 0 ;
+
+}
+.zomato_logo_footer{
+    filter: brightness(0) invert(1);
+}
+.footer_menu{
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    margin: auto;
+    
+}
+.footer_list{
+    text-align: center;
+}
+.footer_menu ul{
+    text-decoration: none;
+    font-size: 20px;
+}
+.footer_menu ul li{
+    list-style-type: none;
+    
+}
+/* Footer end */
+
+
 
 @media (min-width:768px) {
     .navbar{
@@ -240,6 +303,30 @@ width: 100%;
         width: 50%;
         height: 50px;
     }
+    .quote_background_image{
+        width: 100%;
+        height: 60vh;
+    }
+    .quote_heading{
+        font-size: 30px;
+    }
+    .footer{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer_zomato_image{
+        width: 150%;
+    }
+    .footer_menu{
+        width: 80%;
+    }
+    .footer_list{
+        font-size: 10px;
+        text-align: left;
+
+    }
+    
+
 }
 @media (min-width:1020px) {
     .container{
@@ -262,6 +349,9 @@ width: 100%;
     }
     .explore_menu_lists{
         gap: 40px;
+    }
+    .quote_heading{
+        font-size: 40px;
     }
 
 }
