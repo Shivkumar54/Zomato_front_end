@@ -250,8 +250,14 @@ width: 100%;
         flex-direction: row-reverse;
         align-items: center;    
     }
+    .hero_image_container{
+        width: 100%;
+    }
+    .hero_content{
+        width: 100%;
+    }
     .hero_text{
-        font-size: 50px;
+        font-size: 30px;
     }
     .explore_menu_lists{
         display: flex;
