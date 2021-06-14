@@ -199,7 +199,7 @@ width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 40px;
+    font-size: 20px;
     text-align: center;
    
 
@@ -319,6 +319,11 @@ width: 100%;
         width: 50%;
         height: 50px;
     }
+
+    .quote_heading{
+        font-size: 40px;
+    }
+
     .footer{
         display: flex;
         justify-content: space-between;
