@@ -181,7 +181,7 @@ width: 100%;
 /* Quote start */
 .quote_background_image{
     display: flex;
-    background-image: url(assets/assets/restaurant1.jpg);
+    background-image: url(assets/assets/restaurant.jpg);
     width: 100%;
     height: 150px;
     border-radius: 10px;
