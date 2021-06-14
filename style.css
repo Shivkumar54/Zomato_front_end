@@ -18,9 +18,11 @@ body{
     align-items: center;
     justify-content: space-around;
     background-color: white;
+    height: 70px;
 }
 .navbar_brand{
     width: 100px;
+    height: 100px;
 }
 .navbar_logo{
     width: 100%;
@@ -98,6 +100,82 @@ width: 100%;
     display: flex;
     justify-content: center;
 }
+
+/* Flexx type for  images */
+.restaurent_text{
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.restauret_images_container{
+    width: 100%;
+}
+.restaurent_images_row_one{
+    align-items: baseline;
+    margin-bottom: 3px;
+    gap: 3px;
+
+}
+.restaurent_images_row_two,
+.restaurent_images_row_one{
+    width: 100%;
+    display: flex;
+}
+.restaurent_image_one,
+.restaurent_image_four{
+    width: 100%;
+    height: 120px;
+}
+.restaurent_image_two,
+.restaurent_image_three{
+    width: 120%;
+    height: 170px;
+
+}
+
+
+.restaurant1,
+.restaurant2,
+.restaurant3,
+.restaurant4{
+    width: 100%;
+    height: 100%;
+}
+.restaurent_container{
+    margin-top: 8px;
+}
+
+/* GEt Updates start */
+.get_updated_container{
+    width: 100%;
+    margin-top: 100px;
+}
+.get_updated_heading{
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.get_updates_form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.get_updated_email{
+    width: 40%;
+    height: 40px;
+    border-radius: 10px;
+    border:none;
+    padding: 10px;
+
+}
+/* GEt Updates end */
+
 @media (min-width:768px) {
     .navbar{
         justify-content: space-between;
@@ -127,7 +205,7 @@ width: 100%;
     }
     .explore_menu_container{
         position: relative;
-        margin-top: 80px;
+        margin-top: 120px;
     }
     .explore_menu_gradient_bg{
         position:absolute;
@@ -144,6 +222,23 @@ width: 100%;
           z-index: -1;
           transform: skewY(-5deg);
           
+    }
+    .restaurent_container{
+        display: flex;
+        align-items: center;
+        margin-top: 120px;
+    }
+    .restaurent_text{
+        width: 100%;
+       font-size: 40px;
+    }
+
+    .get_updated_heading{
+        font-size: 45px;
+    }
+    .get_updated_email{
+        width: 50%;
+        height: 50px;
     }
 }
 @media (min-width:1020px) {
